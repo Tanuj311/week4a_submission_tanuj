@@ -1,6 +1,6 @@
 # Week 4A 
 
-Q1) q1_forward_kinematics.py: 
+# Q1) q1_forward_kinematics.py: 
 
 This node calculates the 2D end-effector position of a planar 2-link robotic arm using forward kinematics.
 
@@ -21,7 +21,7 @@ Publishes the result on the /end_effector_position topic using the message type 
 
 Logs the position in the terminal.
 
-Q3) q3_inverse_kinematics.py:
+# Q3) q3_inverse_kinematics.py:
 
 This node performs inverse kinematics for a 2-link planar robotic arm, allowing a user to command the end-effector to move in the x or y direction via terminal input.
 
@@ -47,7 +47,7 @@ Adjusts theta1 by subtracting π/2 (to match forward kinematics reference).
 
 Publishes the joint angles as a Float64MultiArray on /joint_angles_goal.
 
-Bonus Q) bonus.py: 
+# Bonus Q) bonus.py: 
 
 This node performs 3D forward kinematics for a robotic arm:
 
